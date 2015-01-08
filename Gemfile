@@ -32,6 +32,7 @@ gem 'pg'
 # gem 'unicorn'
 gem 'sqlite3'
 gem 'bootstrap-sass'
+gem 'bcrypt'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
