@@ -1,0 +1,10 @@
+<% provide(:title,'Home') %>
+<div class="center hero-unit">
+    <h1>Welcome to the Turnip Studio Center</h1>
+    <h2>
+        Sign up for free and enjoy!
+        <a href="http://railstutorial.org/">Based on Ruby on Rails</a>
+        From Ground.
+    </h2>
+  <%= link_to "Sign up now!", {controller: 'users', action: 'new'}, class: "btn btn-large btn-primary" %>
+</div>
