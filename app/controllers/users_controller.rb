@@ -4,4 +4,8 @@ class UsersController < ApplicationController
   end
   def new
   end
+  
+  #private
+  
+  #helper_method :gravatar_for
 end
