@@ -16,9 +16,12 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
             <ul class="nav navbar-nav">                
                 <li class="<%= params[:action] == 'home' ? 'active' : '' %>"> <%= link_to "Home", {controller: 'static_pages', action: 'home'} %> </li>
-                <!-- <li><%= link_to "Home",'home' %></li>              -->
+           <!-- <li><%= link_to "Home",'home' %></li>              -->
                 <li class="<%= params[:action] == 'about' ? 'active' : '' %>"><%= link_to "About",{controller: 'static_pages', action: 'about'} %></li>
             </ul>
+           <ul class="nav navbar-nav navbar-right">
+             <li class="<%= params[:action] == 'new' ? 'active' : '' %>"><%= link_to "Sign Up",{controller: 'users', action: 'new'} %></li>
+          </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
