@@ -20,7 +20,21 @@
                 <li class="<%= params[:action] == 'about' ? 'active' : '' %>"><%= link_to "About",{controller: 'static_pages', action: 'about'} %></li>
             </ul>
            <ul class="nav navbar-nav navbar-right">
-             <li class="<%= params[:action] == 'new' ? 'active' : '' %>"><%= link_to "Sign Up",{controller: 'users', action: 'new'} %></li>
+             <% if !logged_in %>
+             <li class="<%= params[:action] == 'new' && params[:controller] == 'users' ? 'active' : '' %>"><%= link_to "Sign Up",{controller: 'users', action: 'new'} %></li>
+             <li class="<%= params[:action] == 'new' && params[:controller] == 'session' ? 'active' : '' %>"><%= link_to "Sign in",{controller: 'session', action: 'new'} %></li>
+             <% else %>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><%= @current_user.email %> <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>         
+             <% end %>                
           </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

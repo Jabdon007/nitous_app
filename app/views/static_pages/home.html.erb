@@ -6,5 +6,7 @@
         <a href="http://railstutorial.org/">Based on Ruby on Rails</a>
         From Ground.
     </h2>
+  <% if !logged_in %>
   <%= link_to "Sign up now!", {controller: 'users', action: 'new'}, class: "btn btn-large btn-primary" %>
+  <% end %>
 </div>
