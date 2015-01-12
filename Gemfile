@@ -6,7 +6,6 @@ gem 'rails', '4.1.0'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
    gem 'rspec-rails'
-   gem 'sqlite3'
 end
 group :assests do
 # Use SCSS for stylesheets
