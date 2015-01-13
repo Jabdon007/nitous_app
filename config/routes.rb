@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get 'about' => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
   get    'login'   => 'session#new'
-  post   'login'   => 'session#create'
+  post   'session/create'
   delete 'logout'  => 'session#destroy'
 
   # The priority is based upon order of creation: first created -> highest priority.

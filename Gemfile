@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.0'
+gem 'rails', '4.1.6'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
    gem 'rspec-rails'
@@ -36,8 +36,11 @@ end
 # gem 'unicorn'
 
 gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 gem 'bcrypt'
 gem 'simple_form'
+
+gem 'jquery-turbolinks'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
