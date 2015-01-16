@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1140892639">
+    <data-source source="LOCAL" name="Rails nitous_app: development" uuid="374bce22-81b6-4810-896f-1e2474d6da54">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/turnipdb_dev</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails nitous_app: test" uuid="336a729c-2974-4e1e-9389-a6b502fd50d7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/turnipdb_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails nitous_app: production" uuid="b10928f9-f5e4-41b9-8a8a-a15910dbaf82">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/turnipdb_pro</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

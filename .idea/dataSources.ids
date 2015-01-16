@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails nitous_app: development" uuid="374bce22-81b6-4810-896f-1e2474d6da54">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails nitous_app: test" uuid="336a729c-2974-4e1e-9389-a6b502fd50d7">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails nitous_app: production" uuid="b10928f9-f5e4-41b9-8a8a-a15910dbaf82">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
