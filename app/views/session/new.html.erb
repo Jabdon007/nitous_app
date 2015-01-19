@@ -6,6 +6,7 @@
     
     <%= f.input :email, class: "form-control", placeholder: "Email"  %>   
     <%= f.input :password, class: "form-control", placeholder: "Password" %>
+    <%= f.input :remember_me,as: :boolean, class: "form-control" %>
   </div>    
   <div class="col-md-4 col-md-offset-4">
     <%= f.button :submit, "Sign in", class: "btn btn-large btn-primary" %>
